@@ -14,6 +14,7 @@
 		7624B2A02C4C49280089CC57 /* AnimationPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7624B29F2C4C49280089CC57 /* AnimationPlaygroundTests.swift */; };
 		7624B2AA2C4C49280089CC57 /* AnimationPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7624B2A92C4C49280089CC57 /* AnimationPlaygroundUITests.swift */; };
 		7624B2AC2C4C49280089CC57 /* AnimationPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7624B2AB2C4C49280089CC57 /* AnimationPlaygroundUITestsLaunchTests.swift */; };
+		7624B2BA2C4C4A180089CC57 /* AnimatingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7624B2B92C4C4A180089CC57 /* AnimatingCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7624B2A52C4C49280089CC57 /* AnimationPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7624B2A92C4C49280089CC57 /* AnimationPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPlaygroundUITests.swift; sourceTree = "<group>"; };
 		7624B2AB2C4C49280089CC57 /* AnimationPlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7624B2B92C4C4A180089CC57 /* AnimatingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		7624B28D2C4C49260089CC57 /* AnimationPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				7624B2B82C4C49D60089CC57 /* AnimatingCircle */,
 				7624B28E2C4C49260089CC57 /* AnimationPlaygroundApp.swift */,
 				7624B2902C4C49260089CC57 /* ContentView.swift */,
 				7624B2922C4C49280089CC57 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				7624B2AB2C4C49280089CC57 /* AnimationPlaygroundUITestsLaunchTests.swift */,
 			);
 			path = AnimationPlaygroundUITests;
+			sourceTree = "<group>";
+		};
+		7624B2B82C4C49D60089CC57 /* AnimatingCircle */ = {
+			isa = PBXGroup;
+			children = (
+				7624B2B92C4C4A180089CC57 /* AnimatingCircle.swift */,
+			);
+			path = AnimatingCircle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7624B2BA2C4C4A180089CC57 /* AnimatingCircle.swift in Sources */,
 				7624B2912C4C49260089CC57 /* ContentView.swift in Sources */,
 				7624B28F2C4C49260089CC57 /* AnimationPlaygroundApp.swift in Sources */,
 			);
